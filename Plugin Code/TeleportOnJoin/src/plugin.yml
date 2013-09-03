@@ -1,3 +1,9 @@
 name: TeleportOnJoin
 version: 0.2
 main: mrLarssonJr.teleportOnJoin.TeleportOnJoin
+commands:
+  tpOnJoin_setTpLocation:
+    description: Sets the new location where player should be teleported to on joining
+    usage: /tpOnJoin_setTpLocation
+    permission:
+    permission-message:
